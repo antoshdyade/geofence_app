@@ -1,5 +1,5 @@
 🧪 cURL Command to Test GPS Location API
-curl -X POST http://localhost/geofencing-system/api_location_update.php \
+curl -X POST http://localhost/geofence_app/api_location_update.php \
      -H "Content-Type: application/json" \
      -d '{
            "user_id": "testuser01",
@@ -56,4 +56,5 @@ curl -X POST http://localhost/geofence_app/api_location_update.php \
            "lat": 18.5204,
            "lng": 73.8567
          }'
+
 
