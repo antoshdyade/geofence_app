@@ -37,7 +37,7 @@ curl -X POST https://yourdomain.com/api_location_update.php \
 
 If using Windows CMD, escape double quotes:
 
-curl -X POST http://localhost/geofencing-system/api_location_update.php ^
+curl -X POST http://localhost/geofence_app/api_location_update.php ^
 -H "Content-Type: application/json" ^
 -d "{ \"user_id\":\"testuser\", \"lat\":18.5204, \"lng\":73.8567 }"
 
@@ -49,10 +49,11 @@ You can safely add this section:
 
 Use curl to test the location API:
 
-curl -X POST http://localhost/geofencing-system/api_location_update.php \
+curl -X POST http://localhost/geofence_app/api_location_update.php \
      -H "Content-Type: application/json" \
      -d '{
            "user_id": "testuser01",
            "lat": 18.5204,
            "lng": 73.8567
          }'
+
